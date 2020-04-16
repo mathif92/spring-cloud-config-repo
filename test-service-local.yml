@@ -2,7 +2,7 @@ spring:
   application:
     name: test-service
   datasource:
-    url: jdbc:mysql://test-service-mysql/test_service?useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://test_service_mysql/test_service?useSSL=false&allowPublicKeyRetrieval=true
     username: test
     password: test
     platform: mysql
