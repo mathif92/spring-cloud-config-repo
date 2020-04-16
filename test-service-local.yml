@@ -1,3 +1,19 @@
+spring:
+  application:
+    name: test-service
+  datasource:
+    url: jdbc:mysql://test-service-mysql/test_service?useSSL=false&allowPublicKeyRetrieval=true
+    username: test
+    password: test
+    platform: mysql
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+
+
 test:
   value: Value in Local Environment Changed Value!
   transactional:
